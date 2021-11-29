@@ -1,0 +1,11 @@
+.main-button {
+    color:white;
+    border: none;
+    padding: 12px 24px;
+    background-color: #32cc72;
+    border-radius: 12px;
+}
+
+.main-button:hover {
+    background-color: violet;
+}

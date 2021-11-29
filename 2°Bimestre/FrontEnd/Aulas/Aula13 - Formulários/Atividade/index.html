@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>MesaDeTrabalho</title>
+</head>
+<body>
+  <div class="content">
+  <header>
+    <h1>Feedback Período de Experiência</h1>
+    <p> Conte nos um pouco o que você achou no seu breve período aqui na empresa e quais são suas expectativas conosco :) </p>
+    <h2>Vamos começar :)</h2>
+  </header>
+
+  <main>
+    <form>
+
+        <label for="username">Funcionário</label>
+        <input type="text" name="username" id="username">       
+      
+        
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+
+        <label for="obs">Use esse campo pra descrever seu período aqui na empresa :)</label>
+        <textarea name="obs" id="obs"></textarea>
+        
+        <label for="city">Área de atuação</label>
+        <select name="city" id="city">
+          <option disabled selected value=""></option>
+          <option value="">São Paulo</option>
+          <option value="">Rio de janeiro</option>
+          <option value="">Florianopolis</option>
+        </select>
+        
+        <label for="role">Setor</label>
+        <select name="role" id="role">
+          <option disabled selected value=""></option>
+          <option value="">Tecnologia da Informação</option>
+          <option value="">Financeiro</option>
+          <option value="">Jurídico</option>
+        </select>
+      
+         <button class="buttonReset" type="reset">Limpar formulário</button>
+         <button class="buttonSend" type="submit">Enviar formulário</button>
+
+        
+    </form>
+  </div>
+
+
+  </main>
+</body>
+</html>

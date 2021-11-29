@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Roboto:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+body {
+  background-image: url('https://www.teahub.io/photos/full/47-478033_plano-de-fundo-cinza.jpg');
+  
+}
+
+.content {
+  background-color: lightgrey;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+main {
+  background-color: gray;
+
+}
+
+header {
+  margin: 20px;
+}
+
+h1 {
+
+}
+
+header h1, h2 {
+  margin: 10px;
+  background-color: gray;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+body {
+  text-align: center;
+  width: 400px;
+  margin: 0px auto;
+  background-color: lightgray;
+}
+
+form {
+  font-weight: 700;
+  padding: 0px;
+}
+
+input, textarea, select, button,label {
+  display: block;
+  width: 300px;
+  margin: 10px auto;
+}
+
+input {
+  height: 25px;
+}
+
+textarea {
+  height: 100px;
+  max-width: 300px;
+  min-width: 300px;
+}
+
+button {
+  display: inline;
+}
+
+.buttonSend {
+  background-color: green;
+}
+.buttonReset {
+  background-color: red;
+}

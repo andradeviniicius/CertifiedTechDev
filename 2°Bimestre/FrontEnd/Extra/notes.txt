@@ -1,0 +1,5 @@
+- Tudo certo utilizar multiplos headers desde que voce entenda que ele respeitará a ordem q foi criado
+O primeiro Header é de fato o header da pagina mas se voce usar um header dentro de uma section por exemplo
+será o header daquela section etc etc
+- É ok usar varios h1 inclusive o proprio fundador do google já disponibilizou um artigo afirmando issso
+-   <nav>  <!-- Tag que o usuario pode navegar nessa area!! -->

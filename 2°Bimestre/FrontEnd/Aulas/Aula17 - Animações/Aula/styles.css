@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    padding:64px 32px
+}
+
+/* :hover vai do ponto A ao ponto B
+    Para adicionar ponto c b d e variar utiliza-se os keyframes, animações
+*/
+@keyframes floating {
+    0% {
+        transform: translate(0, -30px);
+        opacity: -5;
+    }
+    50% {
+        font-size:250px;
+        transform: translate(0, 30px);
+        opacity: 1;
+    }
+    100% {
+        transform: translate(0, -30px);
+        opacity: -5;
+    }
+    /* from {
+
+        transform: translate(0, 0px);
+    }
+    to {
+        transform: translate(0, 30px);
+        
+    } */
+}
+
+.ghost {
+    display: block;
+    font-size: 200px;
+    text-align: center;
+    animation-name: floating;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.main-button {
+    color: white;
+    background-color:blue;
+    border: 0;
+    padding: 22px;
+    font-size: 22px;
+    border-radius: 12px;
+
+    transition: .4s ease-in-out;
+    
+    display: block;
+    margin: 0 auto;
+}
+
+.main-button:hover {
+
+    /* hover é uma "função" que executa ao passar o mouse */
+    color: red;
+    transform: scale(2) skew(-20deg) rotate(360deg);
+    /* translate() mover o elemento para alguma direção passando por cima dos outros elementos */
+
+}

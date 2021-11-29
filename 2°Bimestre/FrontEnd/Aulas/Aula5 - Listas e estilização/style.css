@@ -1,0 +1,65 @@
+body {
+  display: grid;
+  text-align: center;
+  place-items: center;
+  background-color: aliceblue;
+}
+
+.content {
+  display: flex;
+  margin: 10px; 
+}
+
+.content h1 {
+  height: 60px;
+  width: 230px;
+  margin: 5 10 10 10 ;
+}
+
+/* @media (max-height: 80px)
+{
+  .content h1
+   {
+    font-size: 5px;
+   } */
+/*} 
+//Tentativa falha de botar responsividade nos titulos kk ansioso pra aula de media querie*/
+
+#container1, #container2, #container3 {
+  background-color: lightgray;
+  margin: 10px;
+  max-width: 230px;
+  max-height: 421px;
+  font-size: 12px;
+  border-radius: 5%;
+}
+
+#container1 > h1, 
+#container2 > h1, 
+#container3 > h1 {
+  margin: 0 0 0 0;
+  /* padding: 5px; */
+  background-color: grey;
+}
+
+#container1 > img, 
+#container2 > img, 
+#container3 > img {
+  margin: 20 0 40 0 ; 
+  /*tentativa falha de deixar a imagem desgrudada do h1*/
+  border-radius: 25%;
+  width: 200px;
+}
+
+
+#container1 > ul, 
+#container2 > ul, 
+#container3 > ul {
+  text-align: left;
+  /* margin: 0 10px 0 10px; 
+  //Teste de margin*/
+  padding: 50px 0 0 20;
+  /* background-color: aqua; 
+  // Utilizado pra visualizar a box*/
+}
+

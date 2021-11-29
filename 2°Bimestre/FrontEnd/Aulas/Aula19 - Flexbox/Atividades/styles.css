@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&family=Roboto&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 10px;
+    background-image: url(https://www.papeiseparede.com.br/3257-thickbox_default/papel-de-parede-whatsapp-branco-e-azul.jpg);
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header {
+    width: 80%;
+    height: 80px;
+    background-color: black;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(15,154,13);
+    background: radial-gradient(circle, rgba(15,154,13,1) 6%, rgba(7,105,14,1) 66%, rgba(10,116,8,1) 87%, rgba(7,162,4,1) 100%);
+
+    border-radius: 6px;
+    /* margin: 10px 10px 10px 10px; */
+}
+
+header img {
+    width: 50px;
+    margin: 20px;
+}
+section {
+    font-family: Roboto;
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px  ;
+    padding-top: 20px;
+    width: 80%;
+}
+
+section div {
+    /* width: 200px; */
+}
+section img {
+    /* width: 25px; */
+    /* width: 100%; */
+    object-fit: cover;
+    height: 200px;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 6px;
+}
+

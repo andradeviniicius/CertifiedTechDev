@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Tudo Doce</title>
+</head>
+<body>
+  <header>
+    <h1>Tudo doce</h1>
+    <p>O doce perfeito na hora perfeita !</p> <!-- Muito marketeiro -->
+  </header>
+  
+  <main>
+
+    <form action="">
+
+      <h1>Faça seu pedido:</h1>
+      
+
+    <fieldset>
+      <legend>Items do Pedido</legend>
+      <div class="produto1">
+        <input type="radio" name="produtos" id="brigadeiro">
+        <label for="brigadeiro">Brigadeiro</label>
+        <img style="display: block; width:200px; height: 150px;" src="https://img.itdg.com.br/images/recipes/000/000/114/320431/320431_original.jpg" id="brigadeiro" alt="">
+      </div>
+      
+      <div>
+        <label for="obs">Observações</label>
+        <textarea name="obs" id="obs"></textarea>
+      </div>
+
+    </fieldset>
+
+    <fieldset>
+      <legend>Informação de Pagamento</legend>
+      <div>
+        <label for="enederecoEntrega">Endereço de entrega:</label>
+        <select name="enderecoEntrega" id="">
+          <option value="São paulo"></option>
+          <option value="São paulo">Guará</option>
+          <option value="São paulo">Osasco</option>
+          <option value="São paulo">Guarulhos</option>
+        </select>
+      </div>
+      
+      <div>
+        <label for="cpf">cpf</label>
+        <input type="password">
+      </div>
+    </fieldset>
+
+
+      <button type="submit" class="finalizarPedido" id="finalizarPedido">Finalizar pedido</button>
+      <button type="reset" class="limparPedido">Limpar pedido</button>
+  </form>
+
+  </main>
+
+</body>
+</html>

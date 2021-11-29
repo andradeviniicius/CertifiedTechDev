@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap'); 
+@import url('https://fonts.googleapis.com/css?family=Material+Icons%7CMaterial+Icons+Outlined%7CMaterial+Icons+Two+Tone%7CMaterial+Icons+Round%7CMaterial+Icons+Sharp%27');
+body{
+  background-color: #131313;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+}
+h1 {
+  color: #fffffd
+  ;
+}
+.media-picture {
+  background-image: url(https://lh3.googleusercontent.com/proxy/TlK-sCFyP5Tg3DuOwl4KfQXVEMZQPlCMXOFS7pQ9U7kp8nedgQbGASS5zJD6mO9TEHkAkH7onIEGqJk74X5T0f1qHwT9GqADsi-7v1hh-WK0dgGq4mbghRfxRVfmPCo2g5qGe1FmgzVx5Y0_uphvNyp8yTGnf9dM0No);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+}
+.review-score{
+  width: 100px;
+  height: 100px;
+  background-color: #e6bd09;
+  color: #fffffd;
+  padding: 12px;
+}
+
+h2{
+  color: #437ca5;
+  
+}
+p{
+  color: #777a82;
+}
+.material-icons-outlined {
+  background: #437ca5;
+  border-radius: 50%;
+}
+a{
+  color: #d0d907;
+  /* background-color: #437ca5; */
+  position: relative;
+  bottom: 8px;
+}
+

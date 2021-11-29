@@ -1,0 +1,39 @@
+* {
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+
+}
+
+fieldset {
+  /* border: 0; */
+  margin: 10px;
+}
+
+body {
+  background-image: url('https://images5.alphacoders.com/669/thumb-1920-669283.jpg');
+  margin: 10px;
+  text-align: center;
+}
+
+main {
+  margin: 10px;
+}
+
+img{
+  margin: 0 auto;
+}
+
+form {
+  display: inline-block;
+  /* background-color: red; */
+  text-align: left;
+}
+
+legend {
+  margin: 10px;
+}
+
+input, label {
+  margin: 10px;
+}

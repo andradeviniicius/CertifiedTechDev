@@ -1,0 +1,109 @@
+@keyframes left-right {
+    0% {
+        transform: translate(0,0);
+    }
+    50% {
+        transform: translate(200px,0px);
+        
+    }
+    100% {
+        transform: translate(0,0);
+
+    }
+}
+.teste1 {
+    padding: 40px;
+    font-size: 62px;
+    /* width: 200px;
+    height: 200px; */
+    /* background-color: blueviolet; */
+    border-radius: 50%;
+    animation-name: left-right;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes tiro {
+    0% {
+        transform: translate(0px,0px);
+    }
+    50% {
+        transform: translate(400px,0px);
+        z-index: 1;
+        
+    }
+    51% {
+        z-index: 0;
+        opacity: 1;
+
+    }
+    52% {
+        opacity: 0;
+
+    }
+    100%{
+        transform: translate(0px,0px);
+        z-index: 0;
+        opacity: 0;
+    }
+}
+@keyframes morto {
+    49% {
+        transform: rotate(0deg);
+
+    }
+    50% {
+        transform: rotate(90deg);
+    }
+    100% {
+        transform: rotate(90deg);
+    }
+}
+
+.homemArma {
+    width: 100px;
+    position: absolute;
+    z-index: 1;
+    /* font-size: 23; */
+}
+
+.municao {
+    display: block;
+    position: relative;
+    width: 25px;
+    padding: 2.5px 0 0 35px;
+
+    animation-name: tiro ;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    
+    z-index: 0;
+}
+
+.pessoaMedo {
+    position: relative;
+    width: 125px;
+    margin-top: -40px;
+    margin-left: 400px;
+    
+    animation-name: morto ;
+    
+    animation-duration: 2.2s;
+    animation-timing-function: ease;
+}
+
+.clickMe {
+    display: block;
+    width: 100px;
+    height: 50px;
+    background-color: yellow;
+    border-radius: 12px;
+    text-align: center;
+
+    transition: background-color 2s;
+
+    font-size: 10px;
+}
+.clickMe:hover {
+    background-color: violet;
+}

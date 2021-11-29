@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <main>
+
+    <form>
+      <h1>Cadastro de usuário</h1>
+      
+      <!-- 
+          -Input Espera 3 propriedades
+				Type=""   Tipo de informacao que se trata no formulario
+				Name=""   Serve para nomear o objeto, muito importante ao trabalhar com JS
+				ID=""     Propriedade de 
+      -->
+        <label for="username">Nome de usuário</label>
+        <input type="text" name="username" id="username">
+        
+      <!-- 
+          -Label: Nome visual de um objeto no html. No nosso caso, o input
+        for=""    Linka a label ao ID do objeto
+      -->
+      <!--
+          Quando se coloca duas inputLabel percebe-se que eles se comportam como elemento inline. Para resolver isso podemos ou colocar uma div pra cada inputLabel ou aplicar no css um comando pra transformar ambos em elemento em bloco 
+          input,label {display: block;}
+      -->
+       
+       
+      
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        
+        
+        <label for="password">Senha</label>
+        <input type="password" name="password" id="password">
+        <!-- A função de mostrar a senha que existe em alguns sites é basicamente um botão que troca o tipo do input de password pra text -->
+
+        <label for="obs">Observações</label>
+        <textarea name="obs" id="obs"></textarea>
+        <!-- 
+          Fornece um campo de texto, para que o usuario possa escrever um texto
+          Para limitar o campo da pra aplicar regras CSS pro usuario nao zoar o tamanho do campo
+        -->
+
+        <label for="city"></label>
+        <select name="city" id="city">
+          <option value="">São Paulo</option>
+          <option value="">Rio de janeiro</option>
+          <option value="">Florianopolis</option>
+        </select>
+        <!-- 
+          select é uma lista que desce
+          Value: seria basicamente o ID que o backend vai trabalhar
+         -->
+         <button class="buttonReset" type="reset">Limpar formulário</button>
+         <button class="buttonSend" type="submit">Enviar formulário</button>
+
+        
+    </form>
+
+
+  </main>
+</body>
+</html>

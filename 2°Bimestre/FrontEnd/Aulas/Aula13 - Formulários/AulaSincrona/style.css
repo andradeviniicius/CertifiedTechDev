@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+form {
+  padding: 24px;
+}
+
+label, button {
+  margin-top: 20px;
+}
+
+input, textarea, select, button {
+  display: block;
+  margin-bottom: 10px;
+}
+
+button {
+  display: inline;
+}
+
+.buttonSend {
+  background-color: green;
+}
+.buttonReset {
+  background-color: red;
+  
+}
