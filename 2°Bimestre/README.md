@@ -1,5 +1,5 @@
 # CertifiedTechDev
-Repositório para aulas de Front-end, Prog imperativa e Back-end
+Repositório para aulas de Front-end, Prog imperativa
 > Nas pastas as aulas estão na ordem do PG e não dos encontros assíncronos
 
 <table style="text-align: right;">
