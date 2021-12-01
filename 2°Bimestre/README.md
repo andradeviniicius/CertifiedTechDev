@@ -34,7 +34,7 @@ Repositório para aulas de Front-end, Prog imperativa e Back-end
          ✅ Display Grid</br>  
          ✅ Checkpoint II</br>  
          </br>  
-         ❌ Prática com Flexbox e Grid</br>  
+         ✅ Prática com Flexbox e Grid</br>  
          ❌ Design Adaptativo I</br>  
          ❌ Design Adaptativo II</br>  
          ❌ Projeto Spotify</br>  

@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing:border-box;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas: 
+    "header header"
+    "main-content sub-content"
+    ;
+    gap: 20px   ;
+    padding: 5px;
+
+    width: 100vw;
+    width: 100vh;
+}
+
+.mainVideo {
+    grid-area: main-content;
+}
+
+.mainVideo label {
+    /*  */
+}
+.mainVideo iframe {
+    /* width: 100%; */
+}
+
+aside {
+    grid-area: sub-content;
+
+}
+
+.suggestions {
+    display:flex;
+    width: 500px;
+    height: 150px;
+}
+
+.suggestions img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.suggestions div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.suggestions span {
+/* um problema de cada vez vini, vai resolver esse scrollbar desnecessario kk */
+}

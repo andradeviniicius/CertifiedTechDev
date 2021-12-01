@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+section {
+    display: flex;
+    width: 800px;
+}
+
+.infoVideo {
+    /* display: flex; */
+}
+
+section span {
+
+}
+
+section img {
+    width: 50%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+section div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+/* Sem utilizar o space between e span ele usou margin-bottom em cada elemento calculando os pixels pra alinhar*/
+}
+
