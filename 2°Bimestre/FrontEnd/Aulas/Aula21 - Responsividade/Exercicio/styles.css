@@ -20,10 +20,10 @@ body {
 
 .content {
   width: 90%;
-  margin: 10px auto;
   background-color: rgba(0, 0, 0, 0.35);  
   border-radius: 5px;
   padding: 10px;
+  margin: 10px auto;
   }
   
   header {
@@ -119,6 +119,15 @@ body {
     margin: 10px;
   }
   
+  @media (max-width: 320px) {
+    .divVideos iframe {
+      width: 250px;
+      margin: 0 auto;
+    }
+    
+  }
+  /* Na epoca nao sabia usar flex e fiz tudo na base de valores fixos e margin 0 auto, entao ta bem triste */
+
   .socialMedia {
     padding: 10px;
     font-family:'Petemoss', Courier, monospace;
