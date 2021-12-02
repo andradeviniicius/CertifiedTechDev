@@ -8,12 +8,7 @@ function iniciais(nome,sobrenome) {
 function bomDia(nome, sobrenome, callback) {
     return 'Olá, '+callback(nome,sobrenome)
 }
-console.log(bomDia('Amanda','Ferreira', nc))
-
-
-
-
-
+// console.log(bomDia('Amanda','Ferreira', iniciais))
 
 // Exemplo do MDN
 function greeting2(name) {
@@ -31,40 +26,12 @@ function processUserInput(callback) {
   
   processUserInput(greeting2);
 
-
-
-
-
-// 
-const myFunc = callback
-
-function myFunc() {
-  
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //  Micro desafios:
 
-function andar(a) {
-    console.log('o carro está andando'+a)
+const andar = ()=>'carro anda';
+const parar = ()=>'carro para';
+function situacaoCarro(funcExterna) {
+    return funcExterna()
 }
-function parar(a) {
-    console.log('o carro parou'+a)
-}
-function acaoCarro(callback) {
-    callback(a)
-}
-console.log(acaoCarro(parar))
+
+console.log(situacaoCarro(andar))
