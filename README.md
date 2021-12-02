@@ -8,16 +8,16 @@ Repositório para armazenar códigos e informações do Curso
     </tr>
     <tr>
         <td>
-            <p>Introdução a informática</br>
-            <b>Banco de Dados</b>
+            Introdução a informática</br>
+            Banco de Dados
         </td>
         <td>
-            <p>Front-end</p>
-            <p>Programação Imperativa(JavaScript)</p>
+            Front-end</br>
+            Programação Imperativa(JavaScript)
         </td>
         <td>
-            <p>A completar...</p>
-            <p>A completar...</p>
+            A completar... </br>
+            A completar...
         </td>
     </tr>
 </table>
