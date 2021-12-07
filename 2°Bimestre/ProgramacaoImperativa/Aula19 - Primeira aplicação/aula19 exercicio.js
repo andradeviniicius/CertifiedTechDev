@@ -7,3 +7,4 @@ const maiorIdade = pessoas.filter((valor,index) => {
 });
 
 console.log(maiorIdade)
+// Não está pronto, tive que sair mais cedo da aula
