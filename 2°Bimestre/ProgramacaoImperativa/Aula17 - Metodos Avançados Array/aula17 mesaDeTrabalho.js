@@ -28,8 +28,15 @@ console.log(apenasMaria)
 
 const numeros = [1,2,3,4,5]
 
-const reduce = numeros.reduce((resultado, valor) => {
-    return valor.join(' - ')
+const reduce = numeros.reduce((prevVal, valor) => {
+    
+    return prevVal.toString() + ' - ' + valor.toString()
 })
 
-console.log(numeros)
+console.log(reduce)
+
+// Crie um array de animais, após isso passe por cada índice utilizando o .forEach() e imprima a frase “O animal é NOME_DO_ANIMAL
+const animais = ['gato','cachorro','avestruz', 'jaguatirica']
+animais.forEach(function(valor){
+    console.log("O animal é: "+valor)
+})
