@@ -1,0 +1,34 @@
+.main-button {
+  background-color: green;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main-header {
+  background-color: red;
+  padding: 20px;
+}
+
+.main-header img {
+  width: 100px;
+}
+
+.main-header ul {
+  background-color: aliceblue;
+}
+
+.main-header ul li {
+  padding: 20px;
+}
+
+.main-header ul li a {
+  color: black;
+  color: red;
+  list-style: 32px;
+}
+/*# sourceMappingURL=styles.css.map */
