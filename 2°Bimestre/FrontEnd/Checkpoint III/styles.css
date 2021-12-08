@@ -5,13 +5,26 @@
           box-sizing: border-box;
 }
 
-.footer {
+footer {
   position: fixed;
-  height: 50px;
-  background-color: red;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  margin-bottom: 0px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+
+}
+
+footer
+section {}
+section h1 {}
+section div {}
+
+
+
+
+
+footer img {
+  width: 40px;
 }
 /*# sourceMappingURL=styles.css.map */
