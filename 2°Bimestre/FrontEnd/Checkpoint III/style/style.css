@@ -37,4 +37,13 @@ footer {
 footer img {
   width: 40px;
 }
+
+@media (max-width: 991px) {
+  .navbar ul li a {
+    text-align: center;
+  }
+  .navbar .loginBtn {
+    width: 100%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
