@@ -75,6 +75,5 @@ const pessoas = [
       altura: "1.80",
     },
   ];
-
-  let strPessoas = JSON.stringify(pessoas)
-  module.exports = strPessoas;
+let strPessoas = JSON.stringify(pessoas)
+module.exports = strPessoas;
