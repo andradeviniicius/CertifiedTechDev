@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.navbar li {
+  margin-left: .5rem;
+  margin-right: .5rem;
+}
+
+.navbar .loginBtn {
+  color: white;
+  background-color: #0b238d;
+  border-radius: 4px;
+  padding: 8px 25px;
+  width: 100px;
+  text-align: center;
+  border: 0.2px solid white;
+  cursor: pointer;
+}
+
+.navbar .navbar-brand {
+  font-weight: 700;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+footer img {
+  width: 40px;
+}
+
+@media (max-width: 991px) {
+  .navbar ul li a {
+    text-align: center;
+  }
+  .navbar .loginBtn {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
