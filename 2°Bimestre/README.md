@@ -62,12 +62,12 @@ Repositório para aulas de Front-end, Prog imperativa
          ✅ Checkpoint II</br>
          </br>
          <b><em>Javascript Avançado</em></b></br>
-         ❌ Funções Avançadas</br>
-         ❌ Arrays Avançados</br>
-         ❌ Exercícios</br>
-         ❌ Desenvolvimento de uma aplicação I</br>
-         ❌ Desenvolvimento de uma aplicação II</br>
-         ❌ Avaliação final</br>
+         ✅ Funções Avançadas</br>
+         ✅ Arrays Avançados</br>
+         ✅ Exercícios</br>
+         ✅ Desenvolvimento de uma aplicação I</br>
+         ✅ Desenvolvimento de uma aplicação II</br>
+         ✅ Avaliação final</br>
        </td>
     </tr>
    </table>
