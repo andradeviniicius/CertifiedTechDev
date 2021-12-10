@@ -21,7 +21,7 @@ Repositório para armazenar códigos e informações sobre o andamento do meu ap
             🚧 Metodologias Ágeis
         </td>
         <td>
-            ❌ Programação Orientada a Objetos</br>
+            ✅ Programação Orientada a Objetos</br>
             ❌ Testing I </br>
             ❌ Design Thinking
         </td>
