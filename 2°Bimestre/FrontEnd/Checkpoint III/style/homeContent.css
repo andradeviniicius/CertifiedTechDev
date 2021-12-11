@@ -1,23 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
-
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-}
-
-.reset-class {
-  margin: 0px;
-}
-
-body {
-  background-color: #f5f5f5;
-}
-
-
 .main-banner {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(./images/mainbanner.jpg);
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.8))), url("../images/mainbanner.jpg");
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url("../images/mainbanner.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -25,21 +8,28 @@ body {
   height: 100vh;
   width: 100%;
   color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .main-banner h1 {
-    font-family: 'Roboto' , sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 72px;
-    line-height: 84px;
-    color: #0B5ED7;
-    
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 84px;
+  color: #0b5ed7;
 }
 
 .main-banner p {
@@ -52,15 +42,9 @@ body {
   text-align: center;
 }
 
-.sized {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .main-banner button {
   margin-top: 100px;
-  border: 1px solid #0B5ED7;
+  border: 1px solid #0b5ed7;
   background: rgba(51, 187, 105, 0.05);
   color: white;
   padding: 10px;
@@ -69,22 +53,67 @@ body {
   border-radius: 4px;
   font-size: 25px;
   letter-spacing: 0.06em;
-  transition: .1s ease-in-out;
+  -webkit-transition: 0.1s ease-in-out;
+  transition: 0.1s ease-in-out;
 }
 
 .main-banner button:hover {
-  filter: brightness(150%);
+  -webkit-filter: brightness(150%);
+          filter: brightness(150%);
+}
+
+.sized {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hover-card {
+  cursor: pointer;
+  -webkit-transition: 0.1s ease-in-out;
+  transition: 0.1s ease-in-out;
+}
+
+.hover-card:hover {
+  -webkit-transform: scale(101%);
+          transform: scale(101%);
+}
+
+.capa-album {
+  width: 254px;
+  height: 254px;
+}
+
+.style-button {
+  width: 100px;
+  height: 40px;
+  font-family: Roboto;
+  letter-spacing: 0.03em;
+  background-color: #0b5ed7;
+  -webkit-transition: 0.1s ease-in-out;
+  transition: 0.1s ease-in-out;
+  color: white;
+  width: 180px;
+}
+
+.style-button:hover {
+  -webkit-filter: brightness(120%);
+          filter: brightness(120%);
 }
 
 .bot-card-style {
   margin: 0 auto;
   text-align: center;
-  
 }
 
 .bot-card-style a {
   margin-top: 10px;
-
 }
 
 .bot-card-style h5 {
@@ -103,55 +132,21 @@ body {
   line-height: 21px;
 }
 
-.style-button {
-    width: 100px;
-    height: 40px;
-    font-family: Roboto;
-    letter-spacing: 0.03em;
-    background-color: #0B5ED7;
-    transition: .1s ease-in-out;
-    color: white;
-    width: 180px;
-}
-
-.style-button:hover {
-  filter: brightness(120%);
-  
-}
-
-.capa-album {
-  width: 254px;
-  height: 254px;
-}
-
-.hover-card {
-  cursor: pointer;
-  transition: .1s ease-in-out;
-}
-
-.hover-card:hover {
-  transform: scale(101%);
+.reset-class {
+  margin: 0px;
 }
 
 @media only screen and (max-width: 600px) {
   .main-banner h1 {
-    
     font-size: 48px;
-    
   }
-
   .main-banner p {
-  
     font-size: 14px;
-    
   }
-
   .main-banner button {
-    
     width: 250px;
     font-size: 20px;
     margin-top: 50px;
-    
   }
-
 }
+/*# sourceMappingURL=homeContent.css.map */

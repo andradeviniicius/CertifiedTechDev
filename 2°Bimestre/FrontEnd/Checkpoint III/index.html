@@ -5,20 +5,17 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Spothouse</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <link href="./style/style.css" rel="stylesheet" type="text/css" />
-  <link rel="stylesheet" href="contentCss.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link href="./style/global.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="style/homeContent.css">
 </head>
 
 <body>
   <header>
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent" id="header-page">
       <div class="container-fluid">
-        <h1 class="navbar-brand" href="#">^Spothouse</h1>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <h1 class="navbar-brand" href="#"><img src="" alt="" srcset=""> Spothouse</h1>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -39,135 +36,210 @@
         </div>
       </div>
     </nav>
-
   </header>
 
+  <!-- modal -->
+  <div class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Modal body text goes here.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Save changes</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- modal  -->
+  
   <section class="main-banner">
     <h1>SPOTHOUSE</h1>
     <p>Confira a maior biblioteca de albúns musicais que a Digital House tem a te oferecer</p>
-    <button>Explorar</button>
+    <a href="#albuns"><button> Explorar</button></a>
   </section>
 
-  
-  <div class="row gy-5 reset-class">
+
+  <div class="row gy-5 reset-class" >
     <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
-        <div class="card shadow-sm p-3 mb-5 bg-white rounded hover-card sized" style="width: 25rem;">
-            <img src="https://a-static.mlcdn.com.br/618x463/cd-nirvana-nevermind-universal/estacaocd/602527779089/f4fb2004c0cef22490d61ecbb9f753b8.jpg" class="card-img-top capa-album" alt="...">
-            <div class="card-body bot-card-style">
-              <h5 class="card-title">NIRVANA</h5>
-              <h6>Nevermind</h6>
-              <p>Rock , 13 músicas - 49min [1991]</p>
-              <a href="#" class="btn btn-primary style-button">Abrir</a>
-            </div>
-          </div>
+      <div class="card shadow-sm p-3 mb-5 bg-white rounded hover-card sized" style="width: 25rem;">
+        <img src="https://a-static.mlcdn.com.br/618x463/cd-nirvana-nevermind-universal/estacaocd/602527779089/f4fb2004c0cef22490d61ecbb9f753b8.jpg" class="card-img-top capa-album" alt="...">
+        <div class="card-body bot-card-style">
+          <h5 class="card-title">NIRVANA</h5>
+          <h6>Nevermind</h6>
+          <p>Rock , 13 músicas - 49min [1991]</p>
+          <a href="./pages/nirvana.html" class="btn btn-primary style-button">Abrir</a>
+        </div>
+      </div>
     </div>
     <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
       <div class="card shadow-sm p-3 mb-5 bg-white rounded hover-card sized" style="width: 25rem;">
-          <img src="https://i.scdn.co/image/ab67616d0000b273b5c04730446bada4d8668fe8" class="card-img-top capa-album" alt="...">
-          <div class="card-body bot-card-style">
-            <h5 class="card-title">TYGA</h5>
-            <h6 >Legendary</h6>
-            <p>Hip-Hop , 14 músicas - 42min [2019]</p>
-            <a href="#" class="btn btn-primary style-button">Abrir</a>
-          </div>
+        <img src="https://i.scdn.co/image/ab67616d0000b273b5c04730446bada4d8668fe8" class="card-img-top capa-album" alt="...">
+        <div class="card-body bot-card-style">
+          <h5 class="card-title">TYGA</h5>
+          <h6>Legendary</h6>
+          <p>Hip-Hop , 14 músicas - 42min [2019]</p>
+          <a href="./pages/nirvana.html" class="btn btn-primary style-button">Abrir</a>
         </div>
-  </div>
-  <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
-    <div class="card shadow-sm p-3 mb-5 bg-white rounded hover-card sized" style="width: 25rem;">
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+      <div class="card shadow-sm p-3 mb-5 bg-white rounded hover-card sized" style="width: 25rem;">
         <img src="https://upload.wikimedia.org/wikipedia/pt/6/63/Astroworld_Travis.jpg" class="card-img-top capa-album" alt="...">
         <div class="card-body bot-card-style">
           <h5 class="card-title">TRAVIS SCOTT</h5>
           <h6>Astroworld</h6>
           <p>Hip-Hop , 17 músicas - 58min [2018]</p>
-          <a href="#" class="btn btn-primary style-button">Abrir</a>
+          <a href="./pages/nirvana.html" class="btn btn-primary style-button">Abrir</a>
         </div>
       </div>
-  </div>
-  <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
-    <div class="card shadow-sm p-3 mb-5 bg-white rounded hover-card sized" style="width: 25rem;">
+    </div>
+    <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+      <div class="card shadow-sm p-3 mb-5 bg-white rounded hover-card sized" style="width: 25rem;">
         <img src="https://upload.wikimedia.org/wikipedia/pt/8/81/Enema_of_the_State.jpg" class="card-img-top capa-album" alt="...">
         <div class="card-body bot-card-style">
           <h5 class="card-title">BLINK-182</h5>
           <h6>Enema of the State</h6>
           <p>Pop-punk , 12 músicas - 35min [1999]</p>
-          <a href="#" class="btn btn-primary style-button">Abrir</a>
+          <a href="./pages/nirvana.html" class="btn btn-primary style-button">Abrir</a>
         </div>
       </div>
-  </div>
-  <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
-  <div class="card shadow-sm p-3 mb-5 bg-white rounded hover-card sized" style="width: 25rem;">
-      <img src="https://images-na.ssl-images-amazon.com/images/I/71H9ZR6EGFL.jpg" class="card-img-top capa-album" alt="...">
-      <div class="card-body bot-card-style">
-        <h5 class="card-title">GUNS N' ROSES</h5>
-        <h6>Appetite for destruction</h6>
-        <p>Rock , 12 músicas - 53min [1987]</p>
-        <a href="#" class="btn btn-primary style-button">Abrir</a>
-      </div>
     </div>
-  </div>
-  <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
-  <div class="card shadow-sm p-3 mb-5 bg-white rounded hover-card sized" style="width: 25rem;">
-      <img src="https://img.discogs.com/QmCXdHx7s6LM69F2gtxQI91Zsac=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-5987580-1410489895-4777.jpeg.jpg" class="card-img-top capa-album" alt="...">
-      <div class="card-body bot-card-style">
-        <h5 class="card-title">ONE DAY</h5>
-        <h6>Mainline</h6>
-        <p>Hip-Hop , 14 músicas - 54min [2014]</p>
-        <a href="#" class="btn btn-primary style-button">Abrir</a>
-      </div>
-    </div>
-  </div>
-
-    <footer>
-        <h1>Autores</h1>
-        <img id="authorImage" src="" alt="">
-
-        <div class="authorCard">
-          <div class="authorInfo">
-            <p id="userName">Nome do autor</p>
-          </div>
-          
-          <div class="githubInfo">
-            <a href="">
-              <img src="images/github-icon.svg" alt="">
-              <p href="" id="githubUser">Nome de usuario</p>
-            </a>
-          </div>
-          
+    <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+      <div class="card shadow-sm p-3 mb-5 bg-white rounded hover-card sized" style="width: 25rem;">
+        <img src="https://images-na.ssl-images-amazon.com/images/I/71H9ZR6EGFL.jpg" class="card-img-top capa-album" alt="...">
+        <div class="card-body bot-card-style">
+          <h5 class="card-title">GUNS N' ROSES</h5>
+          <h6>Appetite for destruction</h6>
+          <p>Rock , 12 músicas - 53min [1987]</p>
+          <a href="./pages/nirvana.html" class="btn btn-primary style-button">Abrir</a>
         </div>
-        
-        <p>All rights reserved</p>
-      <!-- Style foi uma medida paleativa enquanto não arrumo o script -->
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+      <div class="card shadow-sm p-3 mb-5 bg-white rounded hover-card sized" style="width: 25rem;">
+        <img src="https://img.discogs.com/QmCXdHx7s6LM69F2gtxQI91Zsac=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-5987580-1410489895-4777.jpeg.jpg" class="card-img-top capa-album" alt="...">
+        <div class="card-body bot-card-style">
+          <h5 class="card-title">ONE DAY</h5>
+          <h6>Mainline</h6>
+          <p>Hip-Hop , 14 músicas - 54min [2014]</p>
+          <a href="./pages/nirvana.html" class="btn btn-primary style-button">Abrir</a>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-dark text-center" id="devs">
+      <!-- Grid container -->
+      <div class="container p-4">
+
+        <!-- Section: Social media -->
+        <!-- Section: Links -->
+        <section class="">
+          <!--Grid row-->
+          <div class="row justify-content-between">
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase authorName">Vinícius de A.</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <p href="#!" class="text-light response">Responsável pelo desenvolvimento do footer.</p>
+                </li>
+                <li>
+                  <a href="" class="text-light"> <a href="#!" class="text-light"><img class="gitImg" src="" alt="" srcset=""></a></a>
+                  <a href="#!" class="text-light"> <a href="#!" class="text-light"><img class="linkImg" src="" alt="" srcset=""></a></a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase authorName">Johnny W.</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <p class="text-light response">Responsável pela estrutura de arquivos/desenvolvimento das páginas internas e header.</p>
+                </li>
+                <li>
+                  <a href="https://github.com/knowther" target="_blank" class="text-light"><img class="gitImg" src="" alt="" srcset=""></a></a>
+                  <a href="https://www.linkedin.com/in/johnny-wesley-contact/" class="text-light"> <a href="#!" class="text-light"><img class="linkImg" src="" alt="" srcset=""></a></a>
+
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase authorName">Gustavo M.</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <p href="#!" class="text-light response">Responsável pelo desenvolvimento de todo o body da página home.</p>
+                </li>
+                <li>
+                  <a href="#!" class="text-light"> <a href="#!" class="text-light"><img class="gitImg" src="" alt="" srcset=""></a></a>
+                  <a href="#!" class="text-light"> <a href="#!" class="text-light"><img class="linkImg" src="" alt="" srcset=""></a></a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+
+          </div>
+          <!--Grid row-->
+        </section>
+        <!-- Section: Links -->
+
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        <span class="text-light"> © 2020 Copyright:</span>
+        <a class="text-light" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+      </div>
+      <!-- Copyright -->
 
     </footer>
+    <!-- Footer -->
 
     <!-- Script para alterar as imagens de perfil do github de acordo com o array Authors. 
     
     Por enquanto funciona apenas manualmente "authors[1]", a ideia é que ele percorra o array e vá preenchendo no ID correspondente ao que ele encontrar no JSON dessa forma quando adicionar os outros cards automaticamente ele já busque o proximo valor  -->
-    
+
     <!-- Em andamento, aceito sugestoes rsrs -->
     <script>
       function getGithubProfileInfo() {
-        const authors = ['knowther','andradeviniicius','gustavomartinss']
+        const authors = ['knowther', 'andradeviniicius', 'gustavomartinss']
         // for (x=0;x<authors.length;x++) {
-          const url = `https://api.github.com/users/${authors[1]}`
-          
-          fetch(url)
+        const url = `https://api.github.com/users/${authors[1]}`
+
+        fetch(url)
           .then(response => response.json())
           .then(data => {
-            authorImage.src = data.avatar_url   
+            authorImage.src = data.avatar_url
             githubUser.textContent = data.login
             userName.textContent = data.name
           })
-        }
-        getGithubProfileInfo()
+      }
+      getGithubProfileInfo()
         // }
-        
-        </script>
-        <script src="./script.js"></script>
-  <!-- Bootstrap --> 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+
     </script>
+    <script src="./script.js"></script>
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <script src="script/global.js"></script>
 </body>
 
 </html>

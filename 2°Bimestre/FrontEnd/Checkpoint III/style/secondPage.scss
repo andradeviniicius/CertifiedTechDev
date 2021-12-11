@@ -1,0 +1,73 @@
+.main-banner {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
+    url("../images/pages-img/nirvana-nevermind.jpg");
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 80vh;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .album-cover{
+      width: 200px;
+      height: 200px;
+      object-fit: contain;
+  }
+  button{
+    color: white;
+    font-weight: 600;
+    background: linear-gradient(90deg, hsla(242, 99%, 28%, 1) 0%, hsla(278, 95%, 35%, 1) 50%, hsla(302, 100%, 49%, 1) 100%);
+    border: none;
+    border-radius: 4px;
+    padding: 8px 25px;
+    width: 100px;
+    text-align: center;
+    // border: 0.2px solid white;
+    cursor: pointer;
+  }
+}
+
+.main-content{
+    article > .album-info{
+        padding: 5px 50px;
+        font-weight: 700;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        h1{
+            font-size: 32px;
+            font-weight: 700;
+        }
+        span{
+            color: rgb(248, 192, 7);
+            text-shadow: -1px 1px #000;
+        }
+        h2{
+            font-size: 18px;
+        }
+        h3{
+            font-size: 14px;
+            color: blue;
+            font-weight: 500;
+        }
+        .album-data{
+            display: flex;
+            gap: 40px;
+        }
+    }
+    & p {
+        margin-top: 30px;
+       font-family: 'Roboto';
+       padding: 5px 50px;
+       text-align: left;
+    }
+    & iframe{
+        box-shadow: 0px 3px 4px rgb(90, 89, 89);
+    }
+
+}

@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  
+}
+ 
+body {
+  background-color: #f5f5f5;
+}
+
+
+.navbar{
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  transition: .4s ease-in-out;
+  img{
+    width: 60px;
+    height: 30px;
+    content: url('../images/3268860.png');
+  }
+  .navbar-brand{
+    font-weight: 700;
+  }
+  .loginBtn {
+    color: white;
+    font-weight: 600;
+    background: linear-gradient(90deg, hsla(242, 99%, 28%, 1) 0%, hsla(278, 95%, 35%, 1) 50%, hsla(302, 100%, 49%, 1) 100%);
+    border-radius: 4px;
+    padding: 8px 25px;
+    width: 100px;
+    text-align: center;
+    // border: 0.2px solid white;
+    cursor: pointer;
+  }
+  a{
+    text-decoration: none;
+  }
+}
+
+footer {
+  .authorName {
+    color: white;
+  }
+  .respose {
+    font-size: 10px;
+  }
+  .gitImg{
+    content: url(../images/github-icon.svg);
+  }
+  .linkImg{
+    content: url(../images/linkedin-3-16.png);
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar ul li a {
+    text-align: center;
+  }
+  .navbar .loginBtn {
+    width: 100%;
+    margin: 0;
+  }
+}

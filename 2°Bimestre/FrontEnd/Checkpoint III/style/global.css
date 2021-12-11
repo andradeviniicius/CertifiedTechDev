@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  -webkit-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
+}
+
+.navbar img {
+  width: 60px;
+  height: 30px;
+  content: url("../images/3268860.png");
+}
+
+.navbar .navbar-brand {
+  font-weight: 700;
+}
+
+.navbar .loginBtn {
+  color: white;
+  font-weight: 600;
+  background: -webkit-gradient(linear, left top, right top, from(#05018e), color-stop(50%, #7004ae), to(#fa00f2));
+  background: linear-gradient(90deg, #05018e 0%, #7004ae 50%, #fa00f2 100%);
+  border-radius: 4px;
+  padding: 8px 25px;
+  width: 100px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+footer .authorName {
+  color: white;
+}
+
+footer .respose {
+  font-size: 10px;
+}
+
+footer .gitImg {
+  content: url(../images/github-icon.svg);
+}
+
+footer .linkImg {
+  content: url(../images/linkedin-3-16.png);
+}
+
+@media (max-width: 991px) {
+  .navbar ul li a {
+    text-align: center;
+  }
+  .navbar .loginBtn {
+    width: 100%;
+    margin: 0;
+  }
+}
+/*# sourceMappingURL=global.css.map */
