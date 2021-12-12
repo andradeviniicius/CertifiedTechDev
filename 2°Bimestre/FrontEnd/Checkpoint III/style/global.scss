@@ -30,14 +30,26 @@ body {
     font-weight: 600;
     background: linear-gradient(90deg, hsla(242, 99%, 28%, 1) 0%, hsla(278, 95%, 35%, 1) 50%, hsla(302, 100%, 49%, 1) 100%);
     border-radius: 4px;
-    padding: 8px 25px;
+    padding: 0px 15px;
     width: 100px;
+    height: 35px;
     text-align: center;
-    // border: 0.2px solid white;
     cursor: pointer;
   }
   a{
     text-decoration: none;
+  }
+}
+
+.loginData{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 15px;
+  & > input{
+    padding: 15px;
+    border-radius: 4px;
+    border: 1px solid #b4b0b0
   }
 }
 

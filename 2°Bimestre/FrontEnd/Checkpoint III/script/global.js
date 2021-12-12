@@ -8,5 +8,6 @@ function changeHeaderColor() {
     nav.classList.add("bg-dark");
   }
 }
+
 window.addEventListener('load', changeHeaderColor);
 window.addEventListener("scroll", changeHeaderColor);
