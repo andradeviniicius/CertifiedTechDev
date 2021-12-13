@@ -66,6 +66,33 @@ footer {
   .linkImg{
     content: url(../images/linkedin-3-16.png);
   }
+  #viniImg {
+    background-image: url(https://avatars.githubusercontent.com/u/83192227?v=4);
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    background-color: red;
+  }
+  #johnnyImg {
+    background-image: url(https://avatars.githubusercontent.com/u/56652706?v=4);
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    background-color: red;
+  }
+  #guImg {
+    background-image: url(https://avatars.githubusercontent.com/u/63621937?v=4);
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    background-color: red;
+  }
+  .center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
 }
 
 @media (max-width: 991px) {
