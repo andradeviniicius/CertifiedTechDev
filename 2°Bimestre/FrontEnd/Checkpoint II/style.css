@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main-form {
+    padding: 0px 40px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+label, input, select, button {
+
+    display: block;
+    /* padding: 5px; */
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+h1 {
+    color: #BD93F9;
+    background-color: #282A36;
+    padding: 10px;
+    text-align: center;
+}
+
+body {
+    background-color: #e6e6e6;
+}
+
+form {
+    padding: 24px;
+    color: #000000;
+    text-align: center;   
+}
+
+
+button {
+    transition: all 0.3s ease;
+}
+
+.button-send {
+
+    background-color: yellowgreen;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 12px;
+    width: 80px;
+}
+
+.button-send:hover {
+
+    filter:brightness(105%);
+    color: white;
+    border-radius: 10px;
+}
+.button-clear {
+    
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    color: red;
+    border-radius: 10px;
+
+}
+
+.button-clear:hover{
+    background-color: red;
+    color: white;
+}
+input {
+    border: none;
+    border-radius: 4px;
+    width: 250px;
+    height: 30px;
+    font-size: 18px;
+    animation: ease 0.5s;
+
+}
+input:hover{
+    transform: scale(101%);
+}
+label {
+    font-size: 15px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+.div-send-form-buttons {
+    /* background-color: #282A36; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #282A36;
+    border-radius: 5px;
+    padding: 5px;
+    
+}
+.div-send-form-buttons button {
+    margin: 0px;
+    padding: 0px;
+    width: 90px;
+    height: 35px;
+}
+
+fieldset {
+
+    border-color: #282A36;
+    width: 40%;
+    position: relative;
+    margin: 0 auto;
+
+}
+
+/* poi: points of interest */
+#fieldset-poi {
+    border: 0;
+    margin-top: 20px;
+    display: inline;
+}
+#fieldset-poi h2 {
+    color: #BD93F9;
+    background-color: #282A36;
+    padding: 15px;
+    margin: 7px 0px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+
+}
+#fieldset-poi span {
+    display: inline;
+    background-color:red;
+}
+/* Tentativa de transformar os checkboxes para ficar um do lado do outro mas acabou o tempo vai ficar assim mesmo rsrs */
+#fieldset-poi label {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.sele{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+legend {
+
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.age-div {
+    width: 200px;
+    margin: 0px 10px;
+}
+.age-div label {
+    margin-top: 0px;
+    width: 280px ;
+    text-align: left;
+    
+}
+.age-div span {
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
