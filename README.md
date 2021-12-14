@@ -16,7 +16,7 @@ Repositório para armazenar códigos e informações sobre o andamento do meu ap
             ✅ Learning Agility
         </td>
         <td>
-            🚧 Front-end</br>
+            ✅ Front-end</br>
             ✅ Programação Imperativa(JavaScript) </br>
             🚧 Metodologias Ágeis
         </td>
