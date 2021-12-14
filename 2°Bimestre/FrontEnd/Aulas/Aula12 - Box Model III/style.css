@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.square {
+    width: 400px;
+    height: 400px;
+}
+
+.first-square {
+    background-color: red; 
+    position: relative; /*em relaçao ao ponto onde ele deveria estar. Em relação a ele mesmo */
+    /*position: absolute; em relação a janela*/
+    top: 200px;
+    margin-bottom: 12px;
+}
+
+.second-square {
+    background-color: blue; 
+    margin-bottom: 12px;
+    position: fixed;
+    /* posiciona na tela e não altera nem com scroll - algumas coisas como menu, contato sempre são fixos */
+    
+}
+
+.third-square {
+    background-color: green; 
+    margin-bottom: 12px;
+}
+
+header{
+    background-color: grey;
+    padding: 12px 32px;
+}
+
+body{
+    height: 2000px;
+}
+
+/* z-index: numero (camada que ele estará - quanto maior o numero, maior é a sobreposição. Só funciona com posicionamento */
