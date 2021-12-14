@@ -14,6 +14,7 @@
     position: relative; /*em relaçao ao ponto onde ele deveria estar. Em relação a ele mesmo */
     /*position: absolute; em relação a janela*/
     top: 200px;
+    left: 200px;
     margin-bottom: 12px;
 }
 
