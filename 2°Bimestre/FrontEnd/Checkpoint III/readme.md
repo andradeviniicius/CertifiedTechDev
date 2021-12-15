@@ -1,4 +1,4 @@
-# Hello-World-1
+# Avaliação final!
 
 ## Authors
 - [Johnny Wesley](https://github.com/knowther)
@@ -7,5 +7,3 @@
     - Responsável pelo desenvolvimento do footer e análise final.
 - [Gustavo Martins](https://github.com/gustavomartinss)
     - Responsável pelo desenvolvimento de todo o body da página home.
-
-## Project setup instructions
