@@ -37,7 +37,8 @@ Repositório para aulas de Front-end, Prog imperativa
          ✅ Prática com Flexbox e Grid</br>  
          ✅ Design Adaptativo I</br>  
          ✅ Design Adaptativo II</br>  
-         🚧 Projeto Spotify</br>  
+         ✅ Avaliação Final </br>
+         🚧 (Extra) Projeto Spotify</br>  
          </br>  
        </td>
        <td border="0">
