@@ -21,14 +21,14 @@ Repositório para armazenar códigos e informações sobre o andamento do meu ap
             🚧 Metodologias Ágeis
         </td>
         <td>
+            ❌ Frontend II: JS Front</br>
+            ❌ Infra I </br>
+            ❌ Teamwork & collaboration
+        </td>
+        <td>
             ❌ Programação Orientada a Objetos</br>
             ❌ Testing I </br>
             ❌ Design Thinking
-        </td>
-        <td>
-            ❌ Frontend II: JS Front</br>
-            ❌ Infra I </br>
-            ❌ Comunicação Efetiva
         </td>
     </tr>
 </table>
