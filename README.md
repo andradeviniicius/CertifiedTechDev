@@ -21,9 +21,9 @@ Repositório para armazenar códigos e informações sobre o andamento do meu ap
             🚧 Metodologias Ágeis
         </td>
         <td>
-            ❌ Frontend II: JS Front</br>
-            ❌ Infra I </br>
-            ❌ Teamwork & collaboration
+            🚧 Frontend II: JS Front</br>
+            🚧 Infra I </br>
+            🚧 Teamwork & collaboration
         </td>
         <td>
             ❌ Programação Orientada a Objetos</br>
