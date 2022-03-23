@@ -11,13 +11,13 @@ let userBirthDate = document.getElementById('userBirthDate')
 
 console.log(userBirthDate)
 
-const usuario = {
+const listaUsuario = [{
   firstName:"",
   lastName:"",
   documentId:"",
   birthDate:"",
   userImage:"",
-}
+}]
 
 
 
