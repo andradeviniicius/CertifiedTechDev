@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Check1</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="cardStyle.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+  <section>
+
+    <header>
+      <h1>Formulário Cadastral</h1>
+    </header>
+
+    <form>
+      <!-- Começo Questões -->
+      <ul>
+
+        <li>
+          <label for="name">Nome</label>
+          <input type='text' id="name" required></input>
+        </li>
+
+        <li>
+          <label for="lastName">Sobrenome</label>
+          <input type='text' id="lastName" required></input>
+        </li>
+
+        <li>
+          <label for="documentId">CPF</label>
+          <input type='text' id="documentId" required></input>
+        </li>
+
+        <li>
+          <label for="birthDate">Data de nascimento</label>
+          <input type='date' id="birthDate" required></input>
+        </li>
+
+        <li class="userImageLi">
+          <p>Insira sua imagem abaixo :)</p>
+          <label for="userImage">
+          </label>
+          <input type='file' name="userImage" id="userImage" accept="image/*" required >
+          </input>
+        </li>
+
+
+
+        <li id="submitBtn" class="submitLi">
+          <button type="submit">Enviar</button>
+          <button type="reset">Resetar</button>
+        </li>
+      </ul>
+      <!-- Fim Questões -->
+
+
+
+    </form>
+
+  </section>
+
+
+  <section>
+    <form action="index.html">
+      <!-- Começo Questões -->
+      <button type="submit">Voltar</button>
+
+      <ul>
+        <li style="width: 254px; height: '245px'">
+          <img src="" id="userUserImage">
+        </li>
+        <li>
+          <label for="name">Nome e Sobrenome</label>
+          <input type='text' id="userName"></input>
+        </li>
+        <li>
+          <label for="documentId">CPF</label>
+          <input type='text' id="userDocumentId"></input>
+        </li>
+
+        <li>
+          <label for="birthDate">Data de nascimento</label>
+          <input type='text' id="userBirthDate"></input>
+        </li>
+      </ul>
+      <!-- Fim Questões -->
+
+
+
+    </form>
+
+  </section>
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
