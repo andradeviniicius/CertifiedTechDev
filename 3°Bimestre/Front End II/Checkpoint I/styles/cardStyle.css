@@ -27,12 +27,22 @@ body{
   align-items:center;
   /* flex-direction: column; */
   height: 100vh;
-  background: grey;
+  background-image: url('./../assets/wallpaper.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: round;
+
   
 }
 
 section{
-  background-color: #6737B7;
+    /* From https://css.glass */
+background: rgba(98, 5, 123, 0.59);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(8.4px);
+-webkit-backdrop-filter: blur(8.4px);
+border: 1px solid rgba(98, 5, 123, 1);
   width: 327px;
   padding-left: 35px;
   padding-right: 35px;
@@ -101,6 +111,7 @@ border-radius: 6px;
   
   
 }
+
 .submitLi button {
   width: 106px;
   height: 34px;
@@ -121,4 +132,27 @@ border-radius: 6px;
    background: #fff;
   color: #339DFF;
   box-shadow: 0 4px 4px rgba(83, 100, 255, 0.32);
+}
+
+.button {
+  width: 106px;
+  height: 34px;
+  font-size:18px;
+
+background: #18A0FB;
+mix-blend-mode: normal;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 6px;
+
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+    overflow: hidden;
+  cursor: pointer;
+
+}
+.button:hover {
+  background: #fff;
+  color: #339DFF;
+  box-shadow: 0 4px 4px rgba(83, 100, 255, 0.32);
+
 }

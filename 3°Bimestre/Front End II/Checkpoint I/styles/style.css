@@ -27,7 +27,7 @@ body{
   align-items:center;
   /* flex-direction: column; */
   height: 100vh;
-  background-image: url('https://images.wallpapersden.com/image/download/purple-sunrise-4k-vaporwave_bGplZmiUmZqaraWkpJRmbmdlrWZlbWU.jpg');
+  background-image: url('./../assets/wallpaper.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: round;
@@ -35,7 +35,13 @@ body{
 }
 
 section{
-  background-color: #6737B7;
+  /* From https://css.glass */
+background: rgba(98, 5, 123, 0.59);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(8.4px);
+-webkit-backdrop-filter: blur(8.4px);
+border: 1px solid rgba(98, 5, 123, 1);
   width: 327px;
   padding-left: 35px;
   padding-right: 35px;
