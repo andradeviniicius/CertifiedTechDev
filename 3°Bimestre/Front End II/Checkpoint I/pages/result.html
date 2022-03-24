@@ -51,10 +51,10 @@
     userDocumentId.value = window.sessionStorage.getItem('CPF')
 
 
-    let a = window.sessionStorage.getItem('DataNascimento').split('-')
-    console.log(a);
-    a.push(a.shift())
-    userBirthDate.value = a.join(' - ');
+    let a = window.sessionStorage.getItem('DataNascimento')
+    let data = new Date(a)
+    let dataFormatada = data.toLocaleDateString('pt-BR', {timeZone: 'UTC'})
+    userBirthDate.value = dataFormatada
     
     const imgData = sessionStorage.getItem('imgData')
     document.querySelector("#userUserImage").setAttribute("src", imgData)
