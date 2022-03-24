@@ -23,28 +23,28 @@
 
         <li>
           <label for="name">Nome</label>
-          <input type='text' id="name"></input>
+          <input type='text' id="name" required></input>
         </li>
 
         <li>
           <label for="lastName">Sobrenome</label>
-          <input type='text' id="lastName"></input>
+          <input type='text' id="lastName" required></input>
         </li>
 
         <li>
           <label for="documentId">CPF</label>
-          <input type='text' id="documentId"></input>
+          <input type='text' id="documentId" required></input>
         </li>
 
         <li>
           <label for="birthDate">Data de nascimento</label>
-          <input type='date' id="birthDate"></input>
+          <input max="2004-01-01" type='date' id="birthDate" required pattern="\d{4}-\d{2}-\d{2}" required></input>
         </li>
 
         <li class="userImageLi">
           <label for="userImage">Insira sua imagem abaixo :)
           </label>
-          <input type='file' id="userImage">
+          <input type='file' id="userImage" required>
           </input>
         </li>
 

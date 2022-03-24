@@ -49,7 +49,13 @@
 
     userFirstName.value = window.sessionStorage.getItem('NomeSobrenome')
     userDocumentId.value = window.sessionStorage.getItem('CPF')
-    userBirthDate.value = window.sessionStorage.getItem('DataNascimento')
+
+
+    let a = window.sessionStorage.getItem('DataNascimento').split('-')
+    console.log(a);
+    a.push(a.shift())
+    userBirthDate.value = a.join(' - ');
+    
     const imgData = sessionStorage.getItem('imgData')
     document.querySelector("#userUserImage").setAttribute("src", imgData)
   </script>
