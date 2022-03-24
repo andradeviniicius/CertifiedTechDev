@@ -41,9 +41,6 @@
   </section>
 
   <script>    
-    var dataImage = sessionStorage.getItem('imgData');
-    bannerImg = document.getElementById('userUserImage');
-    bannerImg.src = "data:image/png;base64," + dataImage;
 
     
     let userFirstName = document.getElementById('userName')
@@ -53,7 +50,8 @@
     userFirstName.value = window.sessionStorage.getItem('NomeSobrenome')
     userDocumentId.value = window.sessionStorage.getItem('CPF')
     userBirthDate.value = window.sessionStorage.getItem('DataNascimento')
-
+    const imgData = sessionStorage.getItem('imgData')
+    document.querySelector("#userUserImage").setAttribute("src", imgData)
   </script>
 </body>
 </html>
