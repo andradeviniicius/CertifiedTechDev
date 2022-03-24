@@ -20,16 +20,16 @@
         </li>
         <li>
           <label for="name">Nome e Sobrenome</label>
-          <input type='text' id="userName"></input>
+          <input type='text' id="userName" disabled></input>
         </li>
         <li>
           <label for="documentId">CPF</label>
-          <input type='text' id="userDocumentId"></input>
+          <input type='text' id="userDocumentId" disabled></input>
         </li>
 
         <li>
           <label for="birthDate">Data de nascimento</label>
-          <input type='text' id="userBirthDate"></input>
+          <input type='text' id="userBirthDate" disabled></input>
         </li>
       </ul>
       <!-- Fim Questões -->
@@ -40,6 +40,20 @@
 
   </section>
 
+  <script>    
+    var dataImage = sessionStorage.getItem('imgData');
+    bannerImg = document.getElementById('userUserImage');
+    bannerImg.src = "data:image/png;base64," + dataImage;
 
+    
+    let userFirstName = document.getElementById('userName')
+    let userDocumentId = document.getElementById('userDocumentId')
+    let userBirthDate = document.getElementById('userBirthDate')
+
+    userFirstName.value = window.sessionStorage.getItem('NomeSobrenome')
+    userDocumentId.value = window.sessionStorage.getItem('CPF')
+    userBirthDate.value = window.sessionStorage.getItem('DataNascimento')
+
+  </script>
 </body>
 </html>
