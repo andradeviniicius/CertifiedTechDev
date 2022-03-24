@@ -73,6 +73,7 @@ section form ul {
 section form ul li{
   display:flex;
   flex-direction: column;
+  align-items: center;
   margin: 5px;
 }
 section form ul li label{

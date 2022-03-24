@@ -43,6 +43,7 @@ box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(8.4px);
 -webkit-backdrop-filter: blur(8.4px);
 border: 1px solid rgba(98, 5, 123, 1);
+
   width: 327px;
   padding-left: 35px;
   padding-right: 35px;
@@ -67,12 +68,20 @@ section form {
 }
 section form ul {
   list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 section form ul li{
   display:flex;
   flex-direction: column;
   margin: 5px;
 }
+section form ul img{
+  border: 10px solid purple;
+}
+
 section form ul li label{
   font-weight:300;
   font-size: 18px;
