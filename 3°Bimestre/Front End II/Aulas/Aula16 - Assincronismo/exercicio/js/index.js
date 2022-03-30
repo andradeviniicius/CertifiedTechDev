@@ -77,30 +77,34 @@ let consultandoBaseDeDados = new Promise((resolve, reject) => {
 // Aqui realizamos uma consulta da promessa, aguardando sua resposta assíncrona
 consultandoBaseDeDados
     .then((resposta) => {
-    }).then(
-        
         renderizarDadosUsuario(resposta.resultado)
+    }).then(
+
     ).catch((err) => {
         console.log(err);
     });
 
 function renderizarDadosUsuario(dados) {
- 
-    const card = document.querySelectorAll('.tarjeta div p')
+
+    const card = document.querySelectorAll('.tarjeta .elemDiv div')
     let a = dados
 
-    // Foto
-    photoElem = document.createElement("img")
-    photoElem.src = a[0].imagem.miniatura
-    card[0].appendChild(photoElem)
+    card.forEach(card=>{console.log(card);})
 
-    // Nome
-    nomeCompletoElem = document.createElement("input")
-    nomeCompletoElem.value = `${a[0].nome.primeiro} ${a[0].nome.utlimo}`
-    card[1].appendChild(nomeCompletoElem)
+    // Foto
+    let photoElem = document.createElement("img")
+    photoElem.src = a[0].imagem.miniatura
+    card[0].lastElementChild.parentNode.replaceChild(photoElem, card[0].lastElementChild)
     
+    
+    // Nome
+    let nomeCompletoElem = document.createElement("input")
+    nomeCompletoElem.value = `${a[0].nome.primeiro} ${a[0].nome.utlimo}`
+    card[1].lastElementChild.parentNode.replaceChild(nomeCompletoElem, card[1].lastElementChild)
+
     // E-mail
-    emailElem = document.createElement("input")
+    let emailElem = document.createElement("input")
     emailElem.value = `${a[0].email}`
-    card[2].appendChild(emailElem)
+    card[2].lastElementChild.parentNode.replaceChild(emailElem, card[2].lastElementChild)
+
 }
